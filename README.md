@@ -10,9 +10,9 @@ git clone https://github.com/RocketChat/Rocket.Chat.git
 cd Rocket.Chat
 wget https://github.com/sampaiodiego/poc-iframe-area/archive/master.zip
 unzip master.zip
-mv poc-iframe-area packages/
+mv poc-iframe-area-master/ packages/poc-iframe-area
 rm master.zip
-rm README.md
+git checkout -- README.md
 ```
 - Then add the Meteor package to Rocket.Chat app:
 ```
@@ -22,3 +22,5 @@ meteor add poc-iframe-area
 ```
 meteor run
 ```
+
+![image](https://cloud.githubusercontent.com/assets/8591547/16338393/c5250380-39f2-11e6-97e6-b9cf6808241a.png)
